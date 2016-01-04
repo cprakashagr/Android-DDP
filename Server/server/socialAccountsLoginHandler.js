@@ -11,8 +11,8 @@
 
 Accounts.registerLoginHandler(function(req) {
   var googleApiKey = {
-    clientId: "368783282559-rm1ku83893lpmglho0a29bm5ufsq7801.apps.googleusercontent.com",
-    clientSecret: "LuLN0RRq4h6P3Fh9PKgQdd8E"
+    clientId: "",
+    clientSecret: ""
   };
 
   if (req.googleLoginPlugin || req.linkedInLoginPlugin) {
